@@ -59,6 +59,3 @@ Once the application is running, you can input the parameters for the catenary c
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
