@@ -1,0 +1,76 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #d4c5e8;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #8b7fa6;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #a89bb8;
+  font-size: 1.1rem;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  gap: 30px;
+}
+
+@media (max-width: 1000px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.summary-section {
+  margin-top: 30px;
+  background: rgba(217, 206, 235, 0.3);
+  border-radius: 16px;
+  padding: 25px;
+  border: 1px solid #d4c5e8;
+}
+
+.summary-section h2 {
+  color: #8b7fa6;
+  margin-bottom: 20px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.summary-card {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid #e8dff5;
+  box-shadow: 0 2px 8px rgba(139, 127, 166, 0.08);
+}
+
+.summary-card .value {
+  font-size: 1.8rem;
+  color: #b4a0d1;
+  font-weight: bold;
+  font-family: 'Consolas', monospace;
+}
+
+.summary-card .label {
+  color: #a89bb8;
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
